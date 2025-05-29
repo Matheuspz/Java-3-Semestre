@@ -1,0 +1,12 @@
+Diagrama em Mermaid
+
+classDiagram
+        class Ordenador {
+            +ordenar() int[]
+            +imprimir() void
+        }
+        class OrdenadorDecrescente {
+            +ordenarDecrescente() int[]
+            +imprimir() void
+        }
+        Ordenador <|-- OrdenadorDecrescente

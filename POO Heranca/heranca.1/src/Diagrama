@@ -1,0 +1,22 @@
+Diagrama em Mermaid
+
+classDiagram
+        class OperacaoMatematica {
+            +calcular()
+        }
+        class Soma {
+            +calcular()
+        }
+        class Subtracao {
+            +calcular()
+        }
+        class Multiplicacao {
+            +calcular()
+        }
+        class Divisao {
+            +calcular()
+        }
+        OperacaoMatematica <|-- Soma
+        OperacaoMatematica <|-- Subtracao
+        OperacaoMatematica <|-- Multiplicacao
+        OperacaoMatematica <|-- Divisao
